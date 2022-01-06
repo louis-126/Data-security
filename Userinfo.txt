@@ -1,0 +1,18 @@
+user_1 = Users(email='123@gmail.com',name='John Doe',password ='password',clearance="Top Secret",workgroup='boxbox',role="User"
+        status="Active")
+db.session.add(user_1)
+db.session.commit()
+  # user_1 = Users(email='123@gmail.com', name='John Doe', password='password', clearance="Top Secret",
+    #                workgroup='boxbox', role="User",password_hist='password',password_expiry = datetime.today().date() + timedelta(days=90),
+    #                status="Active")
+    # user_2 = Users(email='456@gmail.com', name='Jane Soh', password='password', clearance="Top Secret",
+    #                workgroup='boxbox', role="User",password_hist='password',password_expiry = datetime.today().date() + timedelta(days=90),
+    #                status="Active")
+    # user_3 = Users(email='1234@gmail.com', name='Max Lim', password='password', clearance="Secret",
+    #                workgroup='boxbox', role="User",password_hist='password',password_expiry = datetime.today().date() + timedelta(days=90),
+    #                status="Active")
+Clearance Level:
+Top Secret
+Secret
+Confidential
+Unclassified
